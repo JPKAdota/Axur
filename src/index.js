@@ -27,7 +27,7 @@ function App () {
     return (
         <div className = 'container'>
             <form>
-                <label htmlFor="search">Procurar Url</label>
+                <label htmlFor="search">Digitar o nome de algum personagem Rick and Morty</label>
                 <input name="search" id="search" onChange={handleInputChange}/>
             </form>
             <SearchResults data = {data} />
